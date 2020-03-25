@@ -129,7 +129,7 @@
             this.Controls.Add(this.buttonExit);
             this.Controls.Add(this.buttonHide);
             this.Controls.Add(this.pictureBox1);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.MaximizeBox = false;
             this.Name = "Form1";
             this.Text = "ShuangPinNotify";

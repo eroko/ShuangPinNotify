@@ -22,16 +22,16 @@ namespace shuangpinnotify
 
         private void buttonHide_Click(object sender, EventArgs e)
         {
-            if (this.Height == 293)
+            if (this.Height == 325)
             {
-                this.Height = 45;
-                this.Width = 95;
+                this.Height = 68;
+                this.Width = 100;
                 buttonHide.Text = "显示";
             }
             else
             {
-                this.Height = 293;
-                this.Width = 539;
+                this.Height = 325;
+                this.Width = 551;
                 buttonHide.Text = "隐藏";
             }
         }
